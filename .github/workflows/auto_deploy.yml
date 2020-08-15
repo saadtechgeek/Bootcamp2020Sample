@@ -30,5 +30,4 @@ jobs:
       - name: Installing surge
         run: npm install --g surge
       - name: deploying using surge
-      run: echo 'The time was .'
-      run: surge ./ fragile2-hope.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ fragile2-hope.surge.sh --token ${{ secrets.SURGE_TOKEN }}
